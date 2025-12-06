@@ -7,20 +7,31 @@ output: html_notebook
 This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
 
 Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
-```{r}
-system("wheregit")
-```
 
 ```{r}
 system('git config --global --replace-all user.name "Sydney"')
 system('git config --global --replace-all user.email "livingstone@chapman.edu"')
 system("git config --list")
 system("git commit -m \"Initial Commit\"")
-```
-#Practice
 
+```
+#Practice 1
+
+```{r}
+system("git commit -m \"Second Commit\"")
+```
 ```{r}
 plot(mtcars$mpg, mtcars$wt)
 ```
 
+#Practice 2
+```{r}
+system("git commit -m \"Third Commit\"")
+```
+
+
+```{r}
+plot(Loblolly$height, Loblolly$age)
+
+```
 
