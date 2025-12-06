@@ -28,10 +28,19 @@ plot(mtcars$mpg, mtcars$wt)
 ```{r}
 system("git commit -m \"Third Commit\"")
 ```
+```{r}
+plot(Loblolly$height, Loblolly$age)
+
+```
+
+#Practice 3
+```{r}
+system("git commit -m \"Fourth Commit\"")
+```
 
 
 ```{r}
-plot(Loblolly$height, Loblolly$age)
+x <- c("pink", "yellow", "purple")
 
 ```
 
